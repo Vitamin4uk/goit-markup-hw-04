@@ -171,7 +171,6 @@ p {
 
 /* *Герой */
 .hero {
-  height: 600px;
   padding-bottom: 200px;
   padding-top: 200px;
 
@@ -264,6 +263,37 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.list-special .item::before {
+  display: block;
+  content: '';
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: #f5f4fa;
+  /* outline: 1px solid red; */
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antena::before {
+  background-image: url(../images/antenna1.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../images/clock1.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/diagram1.svg);
+}
+
+.icon-astro::before {
+  background-image: url(../images/astronaut1.svg);
 }
 
 /* *Чим займаємось */
