@@ -386,39 +386,30 @@ p {
   margin-right: 30px;
 }
 
-.customers-list .item {
+.customers-list .link {
   display: block;
   width: 170px;
   height: 90px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding: 0;
 }
 
-.customers-list .item:nth-child(1) {
-  background-image: url(../images/logo1.svg);
+.item .icons {
+  fill: #afb1b8;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: auto;
 }
 
-.customers-list .item:nth-child(2) {
-  background-image: url(../images/logo2.svg);
-}
-
-.customers-list .item:nth-child(3) {
-  background-image: url(../images/logo3.svg);
-}
-
-.customers-list .item:nth-child(4) {
-  border: 1px solid #2196f3;
-  background-image: url(../images/logo4.svg);
-}
-
-.customers-list .item:nth-child(5) {
-  background-image: url(../images/logo5.svg);
-}
-
-.customers-list .item:nth-child(6) {
-  background-image: url(../images/logo6.svg);
+.icons.active:hover,
+.icons.active:focus,
+.link.active:hover,
+.link.active:focus {
+  border-color: var(--acent-color);
+  fill: var(--acent-color);
 }
 
 /* ПОРТФОЛИО */
