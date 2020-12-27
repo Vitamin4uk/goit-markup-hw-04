@@ -266,6 +266,21 @@ p {
   margin-right: 30px;
 }
 
+.spec-container {
+  margin-bottom: 30px;
+  display: block;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+}
+
+.spec-container .icon {
+  margin-top: 25px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
 .special-title {
   padding-bottom: 10px;
 
