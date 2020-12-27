@@ -173,6 +173,7 @@ p {
 }
 
 .footer-address {
+  width: 231px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -185,6 +186,41 @@ p {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.social {
+  display: flex;
+}
+
+.social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon {
+  margin: 12px;
+}
+
+.social-link:not(last-child) {
+  margin-right: 10px;
 }
 
 /* *Герой */
@@ -364,14 +400,46 @@ p {
 }
 
 .item .item-text {
-  padding-bottom: 30px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
+}
+.social-list {
+  display: flex;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  margin-right: 32px;
+}
+
+.social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus,
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--acent-color);
+  fill: var(--background-color);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: #afb1b8;
+}
+
+.item-soc:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* *Постійні клієнти */
