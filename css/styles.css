@@ -187,14 +187,20 @@ p {
 }
 
 .footer-address a {
-  display: block;
+  display: flex;
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
 .social {
-  display: flex;
+  margin-top: 12px;
+  margin-left: 70px;
+  align-content: flex-start;
+}
+
+.ul-social {
+  margin-top: 20px;
 }
 
 .social-title {
@@ -209,10 +215,11 @@ p {
 
 .social-list {
   display: flex;
+  align-items: center;
 }
 
 .social-link {
-  display: inline-block;
+  display: block;
   width: 44px;
   height: 44px;
 
@@ -220,9 +227,23 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* .social-icon {
+.social-link:hover,
+.social-link:focus,
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--acent-color);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
   margin: 12px;
-} */
+  fill: #ffffff;
+}
+
+.social-list .item:not(:last-child) {
+  margin-right: 10px;
+}
 
 /* *!Герой */
 .hero {
@@ -375,6 +396,7 @@ p {
 
 .team-list .item {
   max-width: 270px;
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -415,7 +437,7 @@ p {
   text-align: center;
   color: #757575;
 }
-.social-list {
+.social-team .social-list {
   display: flex;
   margin-left: 32px;
   margin-top: 16px;
@@ -433,13 +455,13 @@ p {
 
 .social-link:hover,
 .social-link:focus,
-.social-icon:hover,
-.social-icon:focus {
+.social-icons:hover,
+.social-icons:focus {
   background-color: var(--acent-color);
   fill: var(--background-color);
 }
 
-.social-icon {
+.social-icons {
   width: 20px;
   height: 20px;
   margin: 12px;
