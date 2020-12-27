@@ -3,7 +3,7 @@
   --background-color: #ffffff;
 }
 
-/* ГЛАВНАЯ */
+/* *!ГЛАВНАЯ */
 body {
   font-family: Roboto, sans-serif;
 }
@@ -44,7 +44,7 @@ p {
   margin: -1px;
 }
 
-/* *Хедер  */
+/* *!Хедер  */
 
 .line {
   border-bottom: 1px solid #ececec;
@@ -151,12 +151,16 @@ p {
   fill: #2196f3;
 }
 
-/* *Футер */
+/* *!Футер */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: #2f303a;
+}
+
+.foot-line {
+  display: flex;
 }
 
 .logo-footer {
@@ -173,6 +177,7 @@ p {
 }
 
 .footer-address {
+  display: block;
   width: 231px;
   font-style: normal;
   font-size: 14px;
@@ -215,11 +220,11 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-icon {
+/* .social-icon {
   margin: 12px;
-}
+} */
 
-/* *Герой */
+/* *!Герой */
 .hero {
   padding-bottom: 200px;
   padding-top: 200px;
@@ -282,7 +287,7 @@ p {
     url(../images/hero.jpg);
 }
 
-/* *Особливості */
+/**! *Особливості */
 .special {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -331,7 +336,7 @@ p {
   color: #757575;
 }
 
-/* *Чим займаємось */
+/**! *Чим займаємось */
 
 .doings {
   padding-bottom: 94px;
@@ -356,7 +361,7 @@ p {
   color: #212121;
 }
 
-/* *Наша команда */
+/**! *Наша команда */
 .team {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -445,7 +450,7 @@ p {
   margin-right: 10px;
 }
 
-/* *Постійні клієнти */
+/**! *Постійні клієнти */
 
 .customers {
   padding-top: 94px;
@@ -498,7 +503,7 @@ p {
   fill: var(--acent-color);
 }
 
-/* ПОРТФОЛИО */
+/* *!ПОРТФОЛИО */
 
 .portfolio {
   padding-top: 94px;
