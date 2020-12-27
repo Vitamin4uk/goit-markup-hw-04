@@ -126,11 +126,29 @@ p {
   text-decoration: none;
 }
 
+.icon-link {
+  display: block;
+}
+
+.icon-header {
+  display: block;
+  width: 16px;
+  height: 12px;
+  margin-top: 34px;
+  margin-right: 10px;
+}
+
+.icon-header .icon {
+}
+
 .page-nav-link:hover,
 .page-nav-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.icon-link:hover,
+.icon-link:focus {
   color: var(--acent-color);
+  fill: #2196f3;
 }
 
 /* *Футер */
@@ -224,6 +242,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
+  background-position: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -263,37 +282,6 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.list-special .item::before {
-  display: block;
-  content: '';
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-
-  background-color: #f5f4fa;
-  /* outline: 1px solid red; */
-
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antena::before {
-  background-image: url(../images/antenna1.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock1.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/diagram1.svg);
-}
-
-.icon-astro::before {
-  background-image: url(../images/astronaut1.svg);
 }
 
 /* *Чим займаємось */
