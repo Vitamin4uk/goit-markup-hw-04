@@ -126,27 +126,14 @@ p {
   text-decoration: none;
 }
 
-.icon-link {
-  display: block;
-}
-
-.icon-header {
-  display: block;
-  width: 16px;
-  height: 12px;
-  margin-top: 34px;
+.ico-cont {
   margin-right: 10px;
-}
-
-.icon-header .icon {
 }
 
 .page-nav-link:hover,
 .page-nav-link:focus,
 .contact-link:hover,
-.contact-link:focus,
-.icon-link:hover,
-.icon-link:focus {
+.contact-link:focus {
   color: var(--acent-color);
   fill: #2196f3;
 }
@@ -299,7 +286,7 @@ p {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+
   background-position: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -333,6 +320,8 @@ p {
 }
 
 .spec-container .icon {
+  width: 70px;
+  height: 70px;
   margin-top: 25px;
   margin-right: 100px;
   margin-bottom: 25px;
@@ -500,21 +489,19 @@ p {
 }
 
 .customers-list .link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
   width: 170px;
   height: 90px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  padding: 0;
+  fill: #afb1b8;
 }
 
 .item .icons {
   fill: #afb1b8;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 60px;
-  margin-right: auto;
 }
 
 .icons.active:hover,
@@ -596,8 +583,8 @@ p {
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.examples-item:hover,
-.examples-item:focus {
+.examples-link:hover,
+.examples-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -614,6 +601,7 @@ p {
 }
 
 .examples-link {
+  display: block;
   text-decoration: none;
 }
 
