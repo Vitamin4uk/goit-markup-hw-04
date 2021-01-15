@@ -36,6 +36,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -439,22 +440,22 @@ p {
   width: 44px;
   height: 44px;
 
+  color: #afb1b8;
+
   border-radius: 50%;
 }
 
 .social-link:hover,
-.social-link:focus,
-.social-icons:hover,
-.social-icons:focus {
+.social-link:focus {
   background-color: var(--acent-color);
-  fill: var(--background-color);
+  color: #fff;
 }
 
 .social-icons {
   width: 20px;
   height: 20px;
   margin: 12px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .item-soc:not(:last-child) {
@@ -500,12 +501,6 @@ p {
   fill: #afb1b8;
 }
 
-.item .icons {
-  fill: #afb1b8;
-}
-
-.icons.active:hover,
-.icons.active:focus,
 .link.active:hover,
 .link.active:focus {
   border-color: var(--acent-color);
